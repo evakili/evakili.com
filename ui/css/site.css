@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Cabin|Raleway');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
+body {
+    font-family: Raleway, sans-serif;
+    background-color: rgb(255, 196, 0);
+    margin: 50px;
+    line-height: 180%;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    font-family: Cabin, sans-serif;
+    padding: 0 0 10px;
+    border-bottom: 3px solid rgb(183, 28, 28);
+}
+
+a, a:hover, a:visited {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: rgb(183, 28, 28);
+}
+
+.links {
+    border-top: 3px solid rgb(183, 28, 28);
+}
+
+.links > .link-list {
+    margin: 0;
+    padding: 10px 0 0;
+    list-style: none;
+}
+
+.links > .link-list > li {
+    display: inline-block;
+    font-size: x-large;
+    padding: 0 5px 0 0;
+}
